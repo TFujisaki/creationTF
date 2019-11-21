@@ -1,14 +1,77 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<HTML>
-<HEAD>
-<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
-<META http-equiv="Content-Style-Type" content="text/css">
-<TITLE>��Ȃ��Ă݂܂���(�H����)</TITLE>
-<STYLE type="text/css">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<title>作曲してみませんか</title>
+</head>
+<body>
+<p>画面サイズ：<span id="ScrSize"></span></p>
+<p>ウィンドウサイズ：<span id="WinSize"></span></p>
+
+<script type="text/javascript">
+//画面サイズの取得
+getScreenSize();
+//ウィンドウサイズの取得
+getWindowSize();
+
+//画面サイズを取得する
+function getScreenSize() {
+	var s = "横幅 = " + window.parent.screen.width + " / 高さ = " + window.parent.screen.height;
+	document.getElementById("ScrSize").innerHTML = s;
+}
+
+function getWidth() {
+	var W = window.parent.screen.width
+}
+
+function getHeight() {
+	var H = window.parent.screen.height
+}
+
+//ウィンドウサイズを取得する
+function getWindowSize() {
+	var sW,sH,s;
+	sW = window.innerWidth;
+	sH = window.innerHeight;
+
+	s = "横幅 = " + sW + " / 高さ = " + sH;
+ 
+	document.getElementById("WinSize").innerHTML = s;
+}
+</script>
+<iframe src="https://docs.google.com/viewer?url=http://www011.upp.so-net.ne.jp/fujicyan/ドキュメント-1.pdf&embedded=true" width=getWidth() height=getHeight()></iframe>
+
+<!--
+<iframe style="width:400px;height:550px" src="./web/viewer.html?file=./sample.pdf"></iframe>
+
+<iframe style="width:800px;height:1000px" src="./web/viewer.html?file=./ドキュメント-1.pdf"></iframe>
 
 
-</STYLE>
-</HEAD>
-<BODY background="r6b.gif">
-</BODY>
-</HTML>
+<p>画面サイズ：<span id="ScrSize"></span></p>
+<p>ウィンドウサイズ：<span id="WinSize"></span></p>
+
+<script type="text/javascript">
+//画面サイズの取得
+getScreenSize();
+//ウィンドウサイズの取得
+getWindowSize();
+
+//画面サイズを取得する
+function getScreenSize() {
+	var s = "横幅 = " + window.parent.screen.width + " / 高さ = " + window.parent.screen.height;
+	document.getElementById("ScrSize").innerHTML = s;
+}
+
+//ウィンドウサイズを取得する
+function getWindowSize() {
+	var sW,sH,s;
+	sW = window.innerWidth;
+	sH = window.innerHeight;
+
+	s = "横幅 = " + sW + " / 高さ = " + sH;
+ 
+	document.getElementById("WinSize").innerHTML = s;
+}
+</script>
+-->
+
+</body>
