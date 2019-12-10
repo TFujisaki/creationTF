@@ -42,6 +42,7 @@
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
@@ -333,7 +334,7 @@
             <para/>
             <ITEXT FONTSIZE="16" CH="西洋音楽の場合、その音楽理論は楽譜でよく理解できるようになっており、和音、コード進行などは楽譜で表現されてこそ"/>
             <para/>
-            <ITEXT FONTSIZE="16" CH="わかりやすいものとなっています。また、音楽理論は作曲をするときに強い味方になってくれます。"/>
+            <ITEXT FONTSIZE="16" CH="わかりやすいものとなっています。"/>
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
